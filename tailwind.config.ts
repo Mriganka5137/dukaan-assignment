@@ -20,6 +20,8 @@ const config = {
     extend: {
       colors: {
         secondary_navbar: "hsla(var(--secondary-navbar))",
+        tertiary_navbar: "hsla(var(--tertiary-navbar))",
+        wallet_background: "hsla(var(--wallet-background))",
         black_100: "hsla(var(--black-100))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
