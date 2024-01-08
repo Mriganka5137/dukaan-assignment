@@ -23,6 +23,11 @@ const config = {
         tertiary_navbar: "hsla(var(--tertiary-navbar))",
         wallet_background: "hsla(var(--wallet-background))",
         black_100: "hsla(var(--black-100))",
+        black_30: "hsla(var(--black-30))",
+        black_50: "hsla(var(--black-50))",
+        black_95: "hsla(var(--black-95))",
+        black_90: "hsla(var(--black-90))",
+
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

@@ -14,7 +14,7 @@ const Links = () => {
             ((pathname.includes(link.route) && link.route.length > 1) ||
               pathname === link.route) &&
             "bg-tertiary_navbar"
-          } flex gap-3 text-black_100 opacity-80 w-full  px-4 py-2 rounded-sm hover:bg-black/20 `}
+          } flex gap-3 text-black_100 opacity-80 w-full px-4 py-2 rounded-sm hover:bg-black/20  `}
         >
           <Image src={link.iconSrc} alt={link.name} width={20} height={20} />
           <p className=" text-[14px] font-medium">{link.name}</p>

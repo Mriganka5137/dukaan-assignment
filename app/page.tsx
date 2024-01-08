@@ -1,10 +1,9 @@
-import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <main className=" w-screen h-screen flex">
-      <Sidebar />
-      <div className="dashboard"></div>
-    </main>
+    <section className="dashboard">
+      <Navbar />
+    </section>
   );
 }
