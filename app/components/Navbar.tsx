@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar px-8 py-3 flex border-b border-[#d9d9d9] gap-4 justify-between">
+    <div className="navbar px-8 py-3 flex border-b border-[#d9d9d9] gap-4 justify-between bg-black_100">
       <div className=" flex items-center gap-4  w-1/3">
         <h3 className=" text-[15px] font-normal">Payments</h3>
         <h4 className=" flex text-black_30  text-[12px] gap-1.5">
