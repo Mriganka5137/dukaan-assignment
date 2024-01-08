@@ -4,6 +4,7 @@
 
 @layer base {
   :root {
+    --primary-blue: 206, 80%, 39%, 1;
     --secondary-navbar: 226, 36%, 18%, 1;
     --tertiary-navbar: 226, 22%, 27%, 1;
     --wallet-background: 0, 0%, 100%, 0.1;

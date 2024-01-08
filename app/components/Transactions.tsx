@@ -1,5 +1,6 @@
 import React from "react";
 import TransactionAction from "./TransactionAction";
+import TransactionTable from "./TransactionTable";
 
 const Transactions = () => {
   return (
@@ -9,6 +10,7 @@ const Transactions = () => {
       </h2>
       <div className="card bg-black_100 mt-3 p-3 pb-6 rounded-[8px]">
         <TransactionAction />
+        <TransactionTable />
       </div>
     </section>
   );

@@ -72,3 +72,208 @@ export const navbarLinks = [
     iconSrc: "/icons/Navbar/plugins.svg",
   },
 ];
+
+export const orders = [
+  {
+    orderId: "#281201",
+    orderDate: "1 July, 2023",
+    orderAmount: "754.25",
+    transactionFees: "12.50",
+  },
+  {
+    orderId: "#281202",
+    orderDate: "2 July, 2023",
+    orderAmount: "1123.80",
+    transactionFees: "18.75",
+  },
+  {
+    orderId: "#281203",
+    orderDate: "3 July, 2023",
+    orderAmount: "935.60",
+    transactionFees: "15.25",
+  },
+  {
+    orderId: "#281204",
+    orderDate: "4 July, 2023",
+    orderAmount: "1420.45",
+    transactionFees: "23.75",
+  },
+  {
+    orderId: "#281205",
+    orderDate: "5 July, 2023",
+    orderAmount: "689.30",
+    transactionFees: "11.50",
+  },
+  {
+    orderId: "#281206",
+    orderDate: "6 July, 2023",
+    orderAmount: "1189.75",
+    transactionFees: "19.75",
+  },
+  {
+    orderId: "#281207",
+    orderDate: "7 July, 2023",
+    orderAmount: "20.20",
+    transactionFees: "5.25",
+  },
+  {
+    orderId: "#281208",
+    orderDate: "8 July, 2023",
+    orderAmount: "365.50",
+    transactionFees: "2.75",
+  },
+  {
+    orderId: "#281209",
+    orderDate: "9 July, 2023",
+    orderAmount: "078.40",
+    transactionFees: "8.25",
+  },
+  {
+    orderId: "#281210",
+    orderDate: "10 July, 2023",
+    orderAmount: "85.50",
+    transactionFees: "5.75",
+  },
+  {
+    orderId: "#281211",
+    orderDate: "11 July, 2023",
+    orderAmount: "204.60",
+    transactionFees: "0.25",
+  },
+  {
+    orderId: "#281212",
+    orderDate: "12 July, 2023",
+    orderAmount: "37.90",
+    transactionFees: "3.50",
+  },
+  {
+    orderId: "#281213",
+    orderDate: "13 July, 2023",
+    orderAmount: "569.25",
+    transactionFees: "6.25",
+  },
+  {
+    orderId: "#281214",
+    orderDate: "14 July, 2023",
+    orderAmount: "43.75",
+    transactionFees: "5.75",
+  },
+  {
+    orderId: "#281215",
+    orderDate: "15 July, 2023",
+    orderAmount: "126.80",
+    transactionFees: "8.75",
+  },
+  {
+    orderId: "#281216",
+    orderDate: "16 July, 2023",
+    orderAmount: "89.20",
+    transactionFees: "3.25",
+  },
+  {
+    orderId: "#281217",
+    orderDate: "17 July, 2023",
+    orderAmount: "345.50",
+    transactionFees: "2.50",
+  },
+  {
+    orderId: "#281218",
+    orderDate: "18 July, 2023",
+    orderAmount: "002.40",
+    transactionFees: "6.75",
+  },
+  // {
+  //   orderId: "#281219",
+  //   orderDate: "19 July, 2023",
+  //   orderAmount: "165.60",
+  //   transactionFees: "9.25",
+  // },
+  // {
+  //   orderId: "#281220",
+  //   orderDate: "20 July, 2023",
+  //   orderAmount: "875.35",
+  //   transactionFees: "s. 14.50",
+  // },
+  // {
+  //   orderId: "#281221",
+  //   orderDate: "21 July, 2023",
+  //   orderAmount: "Rs 1429.45",
+  //   transactionFees: "s. 23.75",
+  // },
+  // {
+  //   orderId: "#281222",
+  //   orderDate: "22 July, 2023",
+  //   orderAmount: "Rs 970.60",
+  //   transactionFees: "s. 16.25",
+  // },
+  // {
+  //   orderId: "#281223",
+  //   orderDate: "23 July, 2023",
+  //   orderAmount: "Rs 1288.75",
+  //   transactionFees: "s. 21.50",
+  // },
+  // {
+  //   orderId: "#281224",
+  //   orderDate: "24 July, 2023",
+  //   orderAmount: "Rs 1105.20",
+  //   transactionFees: "s. 18.25",
+  // },
+  // {
+  //   orderId: "#281225",
+  //   orderDate: "25 July, 2023",
+  //   orderAmount: "Rs 798.90",
+  //   transactionFees: "s. 13.25",
+  // },
+  // {
+  //   orderId: "#281226",
+  //   orderDate: "26 July, 2023",
+  //   orderAmount: "Rs 1573.50",
+  //   transactionFees: "s. 26.25",
+  // },
+  // {
+  //   orderId: "#281227",
+  //   orderDate: "27 July, 2023",
+  //   orderAmount: "Rs 915.75",
+  //   transactionFees: "s. 15.25",
+  // },
+  // {
+  //   orderId: "#281228",
+  //   orderDate: "28 July, 2023",
+  //   orderAmount: "Rs 1332.80",
+  //   transactionFees: "s. 22.25",
+  // },
+  // {
+  //   orderId: "#281229",
+  //   orderDate: "29 July, 2023",
+  //   orderAmount: "Rs 987.40",
+  //   transactionFees: "s. 16.50",
+  // },
+  // {
+  //   orderId: "#281230",
+  //   orderDate: "30 July, 2023",
+  //   orderAmount: "Rs 1204.50",
+  //   transactionFees: "s. 20.25",
+  // },
+
+  // {
+  //   orderId: "#281251",
+  //   orderDate: "1 August, 2023",
+  //   orderAmount: "Rs 820.40",
+  //   transactionFees: "s. 13.75",
+  // },
+  // {
+  //   orderId: "#281252",
+  //   orderDate: "2 August, 2023",
+  //   orderAmount: "Rs 1475.90",
+  //   transactionFees: "s. 24.50",
+  // },
+  // {
+  //   orderId: "#281253",
+  //   orderDate: "3 August, 2023",
+  //   orderAmount: "Rs 1096.75",
+  //   transactionFees: "s. 18.25",
+  // },
+  // ... Add more objects ...
+];
+
+console.log(orders.length);

@@ -19,6 +19,7 @@ const config = {
     },
     extend: {
       colors: {
+        primary_blue: "hsla(var(--primary-blue))",
         secondary_navbar: "hsla(var(--secondary-navbar))",
         tertiary_navbar: "hsla(var(--tertiary-navbar))",
         wallet_background: "hsla(var(--wallet-background))",
