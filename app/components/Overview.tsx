@@ -1,11 +1,9 @@
-"use client";
-import Image from "next/image";
 import React from "react";
 import Card from "./Card";
 
 const Overview = () => {
   return (
-    <div className="flex flex-col gap-6">
+    <section className="flex flex-col gap-6">
       <div className=" flex justify-between items-center">
         <h3 className=" text-xl font-medium">Overview</h3>
         <select
@@ -21,7 +19,7 @@ const Overview = () => {
         <Card title="Online orders" amount="231" />
         <Card title="Amount received" amount="₹23,92,312.19" />
       </div>
-    </div>
+    </section>
   );
 };
 
