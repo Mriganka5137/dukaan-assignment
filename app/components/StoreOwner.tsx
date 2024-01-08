@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from "@/public/images/store_logo.png";
+import downChevron from "@/public/icons/others/ChevronDown.svg";
 import Link from "next/link";
-import ChevronDown from "@/public/icons/ChevronDown";
 const StoreOwner = () => {
   return (
     <div className=" flex items-center gap-3">
@@ -22,7 +22,7 @@ const StoreOwner = () => {
         </Link>
       </div>
 
-      <ChevronDown />
+      <Image src={downChevron} alt="down chevron"></Image>
     </div>
   );
 };
