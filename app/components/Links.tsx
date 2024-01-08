@@ -10,6 +10,7 @@ const Links = () => {
       {navbarLinks.map((link) => (
         <Link
           href={link.route}
+          key={link.id}
           className={`${
             ((pathname.includes(link.route) && link.route.length > 1) ||
               pathname === link.route) &&

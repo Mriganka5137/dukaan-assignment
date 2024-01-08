@@ -24,7 +24,7 @@ const TransactionTable = () => {
         {orders.map((order) => (
           <TableRow
             key={order.orderId}
-            className="bg-black_100 text-black_12 font-normal rounded-[4px] text-[14px] "
+            className="bg-black_100 text-black_12 font-normal rounded-[4px] text-[14px]"
           >
             <TableCell className="w-1/4 text-primary_blue">
               {order.orderId}

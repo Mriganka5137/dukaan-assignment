@@ -275,5 +275,3 @@ export const orders = [
   // },
   // ... Add more objects ...
 ];
-
-console.log(orders.length);
