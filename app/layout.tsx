@@ -18,10 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="w-full h-[1532px] flex">
-          {/* <Sidebar /> */}
-          {children}
-        </main>
+        <main className="w-full h-[1555px] flex">{children}</main>
       </body>
     </html>
   );
