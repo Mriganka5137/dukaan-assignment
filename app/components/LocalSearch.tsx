@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const LocalSearch = () => {
   return (
-    <div className="w-[248px] border border-black_85 py-2.5 px-4 rounded-[4px] bg-black_100 flex items-center gap-2">
+    <div className="w-[248px] border border-black_85 py-2.5 px-4 rounded-[4px] bg-black_100 flex items-center gap-2 text-black_60 ">
       <Image
         src="/icons/others/search.svg"
         width={14}

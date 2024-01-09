@@ -31,6 +31,7 @@ const config = {
         black_50: "hsla(var(--black-50))",
         black_30: "hsla(var(--black-30))",
         black_12: "hsla(var(--black-12))",
+        black_60: "hsla(var(--black-60))",
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

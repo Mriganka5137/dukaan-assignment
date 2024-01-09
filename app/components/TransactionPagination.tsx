@@ -7,7 +7,7 @@ const TransactionPagination = () => {
   const [active, setActive] = useState(10);
 
   return (
-    <div className=" mt-5 max-md:hidden flex items-center gap-1.5 justify-center text-[14px] font-normal text-black_30 flex-wrap">
+    <div className=" mt-5 max-md:hidden flex items-center gap-1 justify-center text-[14px] font-normal text-black_30 flex-wrap">
       <Button
         className=" border rounded-md mr-6 bg-black_100 flex items-center gap-1.5 "
         disabled={active === 1}
@@ -20,7 +20,7 @@ const TransactionPagination = () => {
           width={18}
           height={18}
           alt="arrow"
-          className="mr-2"
+          className=""
         />
         Previous
       </Button>
@@ -32,7 +32,7 @@ const TransactionPagination = () => {
       >
         1
       </Button>
-      <p>...</p>
+      <p className="px-1.5 py-1">...</p>
       {[10, 11, 12, 13, 14, 15, 16, 17, 18].map((item, index) => {
         return (
           <Button
@@ -61,7 +61,7 @@ const TransactionPagination = () => {
           width={18}
           height={18}
           alt="arrow"
-          className="mr-2 rotate-180"
+          className="rotate-180"
         />
       </Button>
     </div>
