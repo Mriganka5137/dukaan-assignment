@@ -89,6 +89,7 @@
 
   .dashboard {
     width: calc(100vw - 224px);
+    @apply max-sm:w-full;
   }
 
   .card {

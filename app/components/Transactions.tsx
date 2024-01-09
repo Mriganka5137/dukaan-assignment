@@ -1,4 +1,3 @@
-import React from "react";
 import TransactionAction from "./TransactionAction";
 import TransactionTable from "./TransactionTable";
 import TransactionPagination from "./TransactionPagination";

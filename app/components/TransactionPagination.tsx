@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Pagination,
   PaginationContent,
@@ -14,7 +14,7 @@ const TransactionPagination = () => {
   const [active, setActive] = useState(10);
 
   return (
-    <Pagination className=" mt-5">
+    <Pagination className=" mt-5 max-md:hidden">
       <PaginationContent>
         <PaginationItem
           className=" border rounded-md mr-6"

@@ -15,7 +15,7 @@ const Overview = () => {
           <option value="last-week">Last Week</option>
         </select>
       </div>
-      <div className="flex w-full justify-between gap-5">
+      <div className="flex w-full justify-between gap-5 max-md:flex-col">
         <Card title="Online orders" amount="231" />
         <Card title="Amount received" amount="₹23,92,312.19" />
       </div>
