@@ -7,13 +7,13 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { useState } from "react";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { useState } from "react";
 
 import Image from "next/image";
 import useOrderStore from "../payments/store";
@@ -21,20 +21,7 @@ import useOrderStore from "../payments/store";
 const TransactionTable = () => {
   const [sortedList, setSortedList] = useState(false);
 
-  // const sortByDate = () => {
-  //   if (sortedList) {
-  //     setOrderList(orders);
-  //     setSortedList(false);
-  //     return;
-  //   }
-  //   const sorted = [...orderList].sort((a, b) => {
-  //     return new Date(b.orderDate).getTime() - new Date(a.orderDate).getTime();
-  //   });
-  //   setOrderList(sorted);
-  //   setSortedList(true);
-  // };
-
-  const or = useOrderStore((s) => s.Orders);
+  const orderList = useOrderStore((s) => s.Orders);
   const sortByDate = useOrderStore((s) => s.sortedList);
 
   return (
@@ -82,7 +69,7 @@ const TransactionTable = () => {
         </TableRow>
       </TableHeader>
       <TableBody className=" border-b ">
-        {or.map((order) => (
+        {orderList.map((order) => (
           <TableRow
             key={order.orderId}
             className="bg-black_100 text-black_12 font-normal rounded-[4px] text-[14px]"
