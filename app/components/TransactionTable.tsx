@@ -1,5 +1,4 @@
 "use client";
-import React, { useState } from "react";
 import {
   Table,
   TableBody,
@@ -8,6 +7,14 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import { useState } from "react";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+
 import { orders } from "@/lib/constants";
 import Image from "next/image";
 
@@ -47,13 +54,22 @@ const TransactionTable = () => {
           <TableHead className="w-1/4 text-right ">Order amount</TableHead>
           <TableHead className=" w-1/4  text-right max-md:hidden">
             Transaction fees
-            <Image
-              src="/icons/others/Info.svg"
-              width={18}
-              height={18}
-              alt="info icon"
-              className="inline-block ml-1"
-            />
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger>
+                  <Image
+                    src="/icons/others/Info.svg"
+                    width={18}
+                    height={18}
+                    alt="info icon"
+                    className="inline-block ml-1"
+                  />
+                </TooltipTrigger>
+                <TooltipContent className="bg-black_100">
+                  <p className=" text-xs text-black_50">GST + Service tax</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
           </TableHead>
         </TableRow>
       </TableHeader>

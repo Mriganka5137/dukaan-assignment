@@ -22,7 +22,11 @@ const StoreOwner = () => {
         </Link>
       </div>
 
-      <Image src={downChevron} alt="down chevron"></Image>
+      <Image
+        src={downChevron}
+        alt="down chevron"
+        className="cursor-pointer"
+      ></Image>
     </div>
   );
 };

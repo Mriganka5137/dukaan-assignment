@@ -39,9 +39,16 @@ const Navbar = () => {
             width={20}
             height={20}
             alt="group"
+            className="cursor-pointer"
           />
         </div>
-        <Image src="/icons/others/menu.svg" width={40} height={40} alt="menu" />
+        <Image
+          src="/icons/others/menu.svg"
+          width={40}
+          height={40}
+          alt="menu"
+          className="cursor-pointer"
+        />
       </div>
       <MobileMenu />
     </div>
