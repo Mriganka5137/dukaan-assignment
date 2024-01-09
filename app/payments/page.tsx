@@ -1,7 +1,7 @@
-import Navbar from "./components/Navbar";
-import Overview from "./components/Overview";
-import Sidebar from "./components/Sidebar";
-import Transactions from "./components/Transactions";
+import Navbar from "../components/Navbar";
+import Overview from "../components/Overview";
+import Sidebar from "../components/Sidebar";
+import Transactions from "../components/Transactions";
 
 export default function Home() {
   return (

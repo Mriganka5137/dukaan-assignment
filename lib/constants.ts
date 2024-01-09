@@ -2,7 +2,7 @@ export const navbarLinks = [
   {
     id: 1,
     name: "Home",
-    route: "/home",
+    route: "/",
     iconSrc: "/icons/Navbar/home.svg",
   },
   {
@@ -179,7 +179,7 @@ export const orders = [
   {
     orderId: "#281218",
     orderDate: "18 July, 2023",
-    orderAmount: "002.40",
+    orderAmount: "5002.40",
     transactionFees: "6.75",
   },
   // {
