@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
   return (
@@ -42,6 +43,7 @@ const Navbar = () => {
         </div>
         <Image src="/icons/others/menu.svg" width={40} height={40} alt="menu" />
       </div>
+      <MobileMenu />
     </div>
   );
 };
