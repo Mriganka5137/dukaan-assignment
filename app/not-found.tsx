@@ -12,7 +12,7 @@ export default function NotFound() {
         <Navbar />
         <div className=" w-full text-center mx-auto h-screen mt-60">
           <h1 className="text-3xl">
-            The requested page is under maintainace !!
+            The requested page is under maintainance !!
           </h1>
           <h3 className=" mt-5 italic">
             Go to the{" "}
