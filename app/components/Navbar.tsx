@@ -43,7 +43,7 @@ const Navbar = () => {
           />
         </div>
         <Image
-          src="/icons/others/menu.svg"
+          src="/icons/others/Menu.svg"
           width={40}
           height={40}
           alt="menu"

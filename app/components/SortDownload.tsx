@@ -6,7 +6,7 @@ const SortDownload = () => {
       <button className="flex items-center border py-1.5 px-3 rounded-sm border-black_85 gap-1.5 text-black_30">
         Sort
         <Image
-          src="/icons/others/sort.svg"
+          src="/icons/others/Sort.svg"
           width={16}
           height={16}
           alt="sort"

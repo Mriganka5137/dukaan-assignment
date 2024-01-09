@@ -1,7 +1,5 @@
 import Link from "next/link";
 import Navbar from "./components/Navbar";
-import Overview from "./components/Overview";
-import Transactions from "./components/Transactions";
 import Sidebar from "./components/Sidebar";
 
 export default function NotFound() {
